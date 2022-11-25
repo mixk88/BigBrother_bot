@@ -14,7 +14,7 @@ import java.io.IOException;
 public class Bot extends TelegramLongPollingBot {
     String tags = "";
       private final static String CHANELID = "-1001742221166";
-    public  final static String SERVICEGROUPID = "";
+    public  final static String SERVICEGROUPID = "-712154919";
     private final static String BOTUSERNAME = "IT_bro_bot";
     private final static String TOKEN = "5864814346:AAEC9rLKdp7HI4lykEJ_hppZeW3e6ViQzlQ";
     public static void main(String[] args) throws TelegramApiException {
@@ -117,6 +117,7 @@ public class Bot extends TelegramLongPollingBot {
         if (message != null && message.hasText() && rightText == false){
             sendAnswer(message, "Похоже ваше сообщение нарушает правила публикации!" +
                     "\n Пожалуйста, проверьте текст и попробуйте еще раз!");
+            sendServMsg(message.getText());
         }
       /* if (message != null && message.hasText() && !message.getText().equals("/start")
                 && !message.getText().equals("/vacancy") && !message.getText().equals("/cv") &&
