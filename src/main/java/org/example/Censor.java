@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Censor {
     //ловим нежелательные слова_
     public static Boolean check(String InputText) throws  IOException {
-        String WordsFilePatch = "C:\\my_folder\\test_files\\BadWords.txt";
+        String WordsFilePatch = "./src/main/resources/BadWords.txt";
         //ArrayList<String> BadWords = new ArrayList<>();
         FileReader fr = new FileReader(WordsFilePatch);
         Scanner scan = new Scanner(fr);
