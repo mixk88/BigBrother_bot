@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="BigBrother_bot:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>BigBrother_bot</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="BigBrother_bot-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="BigBrother_bot:war exploded" />
+    </root>
+  </artifact>
+</component>
