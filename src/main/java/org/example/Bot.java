@@ -15,10 +15,10 @@ import java.io.IOException;
 
 public class Bot extends TelegramLongPollingBot {
     String tags = "";
-      private final static String CHANELID = "-1001742221166";
-    public  final static String SERVICEGROUPID = "-712154919";
+      private final static String CHANELID = "id канала";
+    public  final static String SERVICEGROUPID = "I'd сервисной группы";
     private final static String BOTUSERNAME = "IT_bro_bot";
-    private final static String TOKEN = "5864814346:AAEC9rLKdp7HI4lykEJ_hppZeW3e6ViQzlQ";
+    private final static String TOKEN = " Токен бота";
 
 
 
